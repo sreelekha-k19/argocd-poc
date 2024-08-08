@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest  # Use the latest NGINX image from Docker Hub
+        image: stable-perl  # Use the latest NGINX image from Docker Hub
         ports:
         - containerPort: 80  # Port that the container exposes
